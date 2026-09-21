@@ -1,0 +1,32 @@
+# --- Yerel araç ayarları ---
+/.claude/
+/.vscode/
+.idea/
+*.iml
+
+# --- Tasarım taslakları ve yüklenen dosyalar (proje kodu değil) ---
+/uploads/
+/.thumbnail
+/Restoran Siparis Sistemi.dc.html
+/ios-frame.jsx
+/support.js
+
+# --- Derleme ve bağımlılık çıktıları ---
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# --- Backend çalışma dosyaları (veritabanı ve günlükler) ---
+addisyon.db
+addisyon.db-journal
+addisyon.db-wal
+addisyon.db-shm
+server.log
+*.json.tmp
+
+# --- İşletim sistemi ---
+.DS_Store
+Thumbs.db
+desktop.ini

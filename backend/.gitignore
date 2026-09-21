@@ -1,0 +1,4 @@
+.dart_tool/
+addisyon.db
+server.log
+*.json.tmp

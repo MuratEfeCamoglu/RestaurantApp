@@ -1,0 +1,17 @@
+name: addisyon_backend
+description: "Limon & Zeytin adisyon uygulaması için REST API backend (Dart + shelf + SQLite)."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  sqlite3: ^2.4.6
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
