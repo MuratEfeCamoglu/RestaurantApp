@@ -1,11 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Backend API'sine erişim için gerekli; yalnızca debug manifest'inde olması
-         release/APK sürümünde "Sunucuya bağlanılamadı" hatasına yol açıyordu. -->
+         release/APK sürümünde "Sunucuya bağlanılamadı" hatasına yol açıyordu.
+         Backend düz HTTP kullandığı için usesCleartextTraffic de gerekli
+         (Android 9+ release sürümünde HTTP varsayılan olarak engellenir). -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="addisyonapp"
+        android:label="Limon &amp; Zeytin"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:exported="true"

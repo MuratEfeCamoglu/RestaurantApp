@@ -1,11 +1,11 @@
 {
-    "name": "addisyonapp",
-    "short_name": "addisyonapp",
+    "name": "Limon & Zeytin",
+    "short_name": "Limon & Zeytin",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#C1611F",
+    "theme_color": "#C1611F",
+    "description": "Restoran sipariş ve adisyon yönetimi",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
